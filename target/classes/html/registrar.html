@@ -1,0 +1,21 @@
+<html>
+	<body>
+		<h1>Registro</h1>
+		<p><input id="usuario" type="text" placeholder="Usuário" /></p>
+		<p><input id="senha" type="password" placeholder="Senha" /></p>
+		<p><input type="button" value="Enviar" onClick="valida()" /></p>
+		<div id="resultado"></div>
+		
+		<script type="text/javascript">
+			function valida(){
+				var usuario = document.getElementById("usuario").value;
+				var senha = document.getElementById("senha").value;
+				var senha = document.getElementById("resultado");
+				var templateOK = "<div style='background-color:green;'><h2>Login efetuado com sucesso!</h2></>";
+				var templateERR = "<div style='background-color:red;'><h2>Usu&aacute;rio e senha em brancos!</h2></>";
+				resultado.innerHTML = templateERR;
+			}				
+				
+		</script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+}
+p.especial {
+	color: red;
+	font-size: 30px;		
+}
+
+tr.aquaticos {
+	background-color: #87CEFA;
+}
+
+tr.fogo{
+	background-color: #FFA500;
+}
+
+tr.eletricos{
+	background-color: #EEC900;
+}

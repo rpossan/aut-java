@@ -1,0 +1,28 @@
+<html>
+	<body>
+		<head>
+			<link href='mystyle.css' rel='stylesheet'/>
+			<style>
+				body {background-color: orange;}
+				p {color: blue;}
+			</style>
+		</head>
+		<h1>Hello World!</h1>
+		Seu nome: <input id="nome" placeholder="Insira seu nome" type="text" />
+		<input type="button" value="OK" onClick="boasVindas();" />
+		<p>Parágrafo 1</p>
+		<p class="especial">Par&aacute;grafo especial</p>
+		<p> Outro parágrafo sem estilo</p>
+		<a href="tabelas.html">Tabelas</a> | 
+		<a href="pokemons.html">Pokemons</a> |
+		<a href="pokemons.html">Registrar</a>
+		
+		<script type="text/javascript">
+			function boasVindas(){
+				var d = new Date();
+				var nome = document.getElementById("nome");
+				alert(nome.value + ", seja bem vindo ao meu site!");
+			}
+		</script>
+	</body>
+</html>
